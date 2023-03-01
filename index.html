@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto CV</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/png" href="img/icons8-currículum-48.png"/>
+  
+    <!-- Fuentes "ROBOTO" y "OPEN SANS" de https://fonts.google.com/ -->
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+  <body>
+
+     <!-- barra lateral --> 
+
+    <div id="sidebar">
+      <div class="lateral"></div>
+      <div class="toggle-btn">
+        <span>&#9776</span>
+      </div>
+      <ul>
+        <li>
+          <img src="img/me.jpg" alt="Foto Perfil" class="logo">
+        </li>
+        <li>Alberto Godoy</li>
+        <li> <a href=mailto:agodoy@example.com>agodoy@example.com</a> </li>
+        <li>6/3/1993</li>
+        <li>Corredor Bancalari 3389, Tigre </li>
+        <li>(011) 15-6585-9854</li>
+      </ul>
+    </div>
+
+    <div>
+      <div id="pagina">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#titInfoPersonal">INFORMACIÓN PERSONAL Y DE CONTACTO</a></li>
+                    <li><a href="#titExpLab">EXPERIENCIA LABORAL</a></li>
+                    <li><a href="#titExpLab">ESTUDIOS ACADÉMICOS</a></li>
+                    <li><a href="#titDesem">NIVEL DE DESEMPEÑO</a></li>
+                    <li><a href="#titCursos">CAPACITACIONES</a></li>
+                    <li><a href="#titContactar">CONTACTAR</a></li>
+                </ul>
+
+            
+            </nav>
+
+    
+        </header>
+
+                <section class="tematica">
+                <article id="titInfoPersonal" class="titulo">                    
+                    <h3>INFORMACIÓN PERSONAL Y DE CONTACTO</h3>
+                    <div class="fleVisibilidad" id="mostrarInfo">                        
+                    </div>
+                    <div class="fleVisibilidad" id="ocultarInfo">                        
+                    </div>
+                </article>
+                <article class="datos">              
+                    <p><span class="resaltar">Fecha de nacimiento: </span> 6/3/1993</p>
+                    <p><span class="resaltar">Localidad:</span> Troncos del Talar</p>
+                    <p><span class="resaltar">Calle:</span> Corredor Bancalari 3389</p>
+                    <p><span class="resaltar">Código postal:</span> 1621</p>                    
+                    <p><span class="resaltar">Correo electrónico:</span> <a href=mailto:agodoy@example.com>agodoy@example.com</a></p>
+                    <p><span class="resaltar">Teléfono móvil:</span> (011) 15-6585-9854</p></p>
+                    <p><span class="resaltar">Teléfono fijo:</span> 03327-458565</p>
+                </article>
+            </section>
+
+            <section class="tematica">
+                <article id="titExpLab" class="titulo">                
+                    <h3>EXPERIENCIA LABORAL</h3>
+                    <div class="fleVisibilidad" id="mostrarExpLab">                        
+                    </div>
+                    <div class="fleVisibilidad" id="ocultarExpLab">                        
+                    </div>
+                </article>
+                <article>
+                    <ul class="datos">
+                        <li>
+                            <p><span class="resaltar">2022 - actualidad:</span> Soporte Help Desk Nivel 2</p>
+                        </li>
+                        <li>
+                            <p><span class="resaltar">2017 - 2022:</span> Soporte y atencion al cliente en Local de Computación</p>
+                        </li>
+                        <li>
+                          <p><span class="resaltar">2011 - 2017:</span> Control de calidad para empresa Multinacional</p>
+                      </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="tematica">
+                <article class="titulo">                    
+                    <h3>ESTUDIOS ACADÉMICOS</h3>
+                    <div class="fleVisibilidad" id="mostrarEstudios">                      
+                    </div>
+                    <div class="fleVisibilidad" id="ocultarEstudios">
+                        
+                    </div>
+                </article>
+                <article class="datos">
+                    <ul>
+                        <li>
+                            <p><span class="resaltar">LICENCIATURA EN SISTEMAS:</span> en curso</p>
+                        </li>
+                        <li>
+                            <p><span class="resaltar">Secundario:</span> completo ( Tecnico Superior en Informatica )</p>
+                        </li>
+                        <li>
+                            <p><span class="resaltar">Primario:</span> completo</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="tematica">
+                <article id="titDesem" class="titulo">
+                    
+                    <h3>NIVEL DE DESEMPEÑO</h3>
+                    <div class="fleVisibilidad" >                        
+                    </div>
+                </article>
+                <article class="datos">
+                    <p>HTML: <progress class="barraProgreso" max="100" value="45"></progress></p>
+                    <p>CSS: <progress class="barraProgreso" max="100" value="15"></progress></p>
+                    <p>JS: <progress class="barraProgreso" max="100" value="15"></progress></p>
+                </article>
+            </section>
+
+            <section class="tematica">
+                <article id="titCursos" class="titulo">                    
+                    <h3>CURSOS, SEMINARIOS Y CAPACITACIONES</h3>
+                    <div class="fleVisibilidad" id="mostrarCursos">
+                    </div>
+                    
+                </article>
+                <article>
+                    <ul class="datos">
+                        <li>
+                            <p><span class="resaltar">sep-2018 - nov-2019:</span> Curso Intensivo de Diseño Grafico Photoshop CC2019</p>
+                        </li>
+                        <li>
+                            <p><span class="resaltar">julio 2022 a la actualidad:</span> Curso de Ingles</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section class="tematica">
+                <article  id="titContactar" class="titulo">
+                    <h3>CONTACTAR</h3>
+                    <div class="fleVisibilidad" id="mostrarContactar">
+                    </div>
+                    <div class="fleVisibilidad" id="ocultarContactar">
+                    </div>
+                </article>
+                <article>
+                    <form id="formularioContactar">
+                        <label for="nombreCont">Nombre:</label>
+                        <input type="text" name="nombreCont" id="nombreCont" class="cajaFormulario" required placeholder="INGRESE SU NOMBRE"><br>
+
+                        <label for="apellidoCont">Apellido:</label>
+                        <input type="text" name="apellidoCont" id="apellidoCont" class="cajaFormulario" required placeholder="INGRESE SU APELLIDO"><br>
+
+                        <label for="correoElecCont">Correo electrónico</label>
+                        <input type="email" name="correoElecCont" id="correoElecCont" class="cajaFormulario" required placeholder="correo@ejemplo.com"><br>
+
+                        <label for="asuntoCont">Asunto:</label>
+                        <input type="text" name="asuntoCont" id="asuntoCont" class="cajaFormulario" required placeholder="ASUNTO"><br>
+
+                        <textarea name="comentariosCont" id="comentariosCont" class="cajaFormulario" cols="50" rows="8" placeholder="Comentarios adicionales..."></textarea><br>
+                        <input type="submit" id="enviarFormulario" class="cajaFormulario" name="Enviar" value="Enviar">
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            Documento creado para el curso "Primeros pasos del desarrollo front end"
+        </footer>
+    </div>
+        
+    <script src="js/script.js"></script>
+  </body>
+</html>
